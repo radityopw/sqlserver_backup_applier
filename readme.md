@@ -1,5 +1,5 @@
 ## create config.py
-`
+```python
 import sqlalchemy
 import ftplib
 
@@ -38,4 +38,4 @@ def sqlserver_target():
     args = "driver=ODBC Driver 17 for SQL Server"
 
     return sqlalchemy.create_engine(engine+'://'+user+':'+password+'@'+server+':'+port+'/'+database+'?'+args)
-`
+```
