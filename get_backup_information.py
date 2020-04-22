@@ -3,7 +3,7 @@ import config
 import sqlalchemy
 from sqlalchemy import text
 
-#logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.ERROR)
 
 logging.debug("opening db")
 sqlserver = config.sqlserver_source()
